@@ -1,0 +1,45 @@
+.admin-token, .admin-list {
+    padding: 5px;
+    margin: 5px auto;
+    background-color: mistyrose;
+    border-radius: 4px;
+    text-align: center;
+}
+.admin-token input, .admin-token button {
+    padding: 4px;
+    border-radius: 4px;
+    margin: 0 4px;
+}
+.admin-list {
+    height: auto;
+    list-style: none;
+}
+.admin-list li {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+    margin: 5px auto;
+    border-radius: 5px;
+    border: solid 1px burlywood;
+}
+.admin-list li:hover {
+    background-color: white;
+}
+.admin-list li p {
+    color: #888;
+}
+.admin-list li input[type="text"] {
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    background-color: inherit;
+    border: none;
+}
+.admin-list li input[type="button"] {
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    right: 1em;
+    top: 0.5em;
+    border-radius: 50%;
+}

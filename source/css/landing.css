@@ -1,0 +1,39 @@
+/* 登录/注册页面 */
+.landing-box {
+    background-color: white;
+    width: 340px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.landing-box .item {
+    margin: 12px auto;
+    width: 90%;
+    height: 28px;
+}
+.landing-box .item input {
+    width: 90%;
+    height: 100%;
+    border-radius: 3px;
+    padding: 0 10px;
+}
+.landing-box .item input[type="button"] {
+    width: 98%;
+    height: 110%;
+    margin-top: 10px;
+    background-color: #f7671d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.landing-box .item.tips {
+    display: none;
+}
+.landing-box .item.tips.active {
+    display: block;    
+}
+.landing-box .item.tips span {
+    display: block;
+    margin-top: 20px;
+}
